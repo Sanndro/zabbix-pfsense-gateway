@@ -296,7 +296,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{LEO - PFSENSE - Monitor Gateway Status:gateway[status,{#NAME},status].last(#3)}=0</expression>
+                            <expression>{LEO - PFSENSE - Monitor Gateway Status:gateway[status,{#NAME},status].last(#3)}=4</expression>
                             <name>Gateway  {#NAME}: Offline</name>
                             <url/>
                             <status>0</status>
@@ -306,7 +306,7 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{LEO - PFSENSE - Monitor Gateway Status:gateway[status,{#NAME},status].last()}=0</expression>
+                            <expression>{LEO - PFSENSE - Monitor Gateway Status:gateway[status,{#NAME},status].last()}=4</expression>
                             <name>Gateway {#NAME}: Status Offline</name>
                             <url/>
                             <status>0</status>
