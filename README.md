@@ -17,6 +17,6 @@
 Diagnostics > command Prompt
 executar o comando abaixo
 
-fetch -q -o - https://github.com/5h0ckw4v3/zabbix-pfsense-gateway/blob/master/auto-config.sh | sh
+fetch -q -o - https://github.com/networkprobr/zabbix-pfsense-gateway/blob/master/auto-config.sh | sh
 
 
