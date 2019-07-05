@@ -11,12 +11,3 @@
 * Adicionar o UserParameter
   -> UserParameter=gateway[*],sudo php /scripts/gateway.php $1 $2 $3 $4
 * Importar o template Zabbix-Template-PFSense-Gateways.xml
-
-#PROCEDIMENTO AUTOMÁTICO
-
-Diagnostics > command Prompt
-executar o comando abaixo
-
-fetch -q -o - https://github.com/networkprobr/zabbix-pfsense-gateway/blob/master/auto-config.sh | sh
-
-
